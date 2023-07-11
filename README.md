@@ -3,20 +3,6 @@
 ###  - `python 3.7.2` [download](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe)<br>
 
 
-<style>
-  .centered-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px; /* 이미지의 최대 높이 */
-  }
-
-  .centered-image img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain; /* 이미지 비율 유지 */
-  }
-</style>
 
 <!-- 이미지 가운데 정렬 -->
 <p align="center">
@@ -29,7 +15,7 @@
   <div class="centered-image">
     <img src="./image/666.png" alt="install_06.png">
   </div>
-  
+
 ---
 
 ## ANACONDA install
@@ -44,12 +30,15 @@
 
 ## jupyter notebook install
 
-### - `방법 1`
+### `실행 방법`
+
+##### - 시작 -> Anaconda -> jupyter notebook 실행
+
 <p align="center">
-  <img src="./image/anaconda_5.png" alt="anaconda.png"><br><br>
-  <img src="./image/anaconda_6.png" alt="anaconda.png"><br><br>
-  <img src="./image/anaconda_7.png" alt="anaconda.png">
+  <img src="./image/anaconda_8.png" alt="anaconda_8">
 </p>
+
+### - 실행 하면 어떤 형식으로 실행을 시켜야 할지 물어보는 창이 나옵니다. 이때, 반드시 `크롬`을 선택해 주세요~!!
 
 ---
 
