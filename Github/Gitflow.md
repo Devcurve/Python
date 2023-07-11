@@ -1,3 +1,14 @@
+# **Github download**
+
+### [`github desktop download`](https://central.github.com/deployments/desktop/desktop/latest/win32)
+###### - download가 안된다면 [link](https://desktop.github.com/)로 이동하여 직접 download 해주세요y~
+- 설치방법은 생략
+
+
+
+
+
+
 # **Gitflow**
 ### Gitflow는 Git을 기반으로 한 효율적인 브랜치 관리 전략중 하나입니다.
 

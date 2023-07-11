@@ -32,19 +32,20 @@
 
 ### `실행 방법`
 
-##### - 시작 -> Anaconda -> jupyter notebook 실행
+##### - 시작 -> Anaconda3 -> jupyter notebook 실행
 
 <p align="center">
   <img src="./image/anaconda_8.png" alt="anaconda_8">
 </p>
 
-### - 실행 하면 어떤 형식으로 실행을 시켜야 할지 물어보는 창이 나옵니다. 이때, 반드시 `크롬`을 선택해 주세요~!!
+### - 실행 하면 어떤 형식으로 실행을 시켜야 할지 물어보는 창이 나옵니다.<br>이때, 반드시 `크롬`을 선택해 주세요~!!
 
+
+<!--
 ---
 
 ### - `방법2`
 
-<!-- 이미지 가운데 정렬 -->
 <p align="center">
   <img src="./image/444.jpg" alt="install_04"><br><br>
   <img src="./image/555.png" alt="install_05">
@@ -102,6 +103,7 @@ jupyter notebook
 
 - 두 가지 방법 중 아무거나 선택해서 설치.
 
+-->
 ---
 
 ___교재___
