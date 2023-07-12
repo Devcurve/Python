@@ -1,7 +1,7 @@
 ## **Python 시작**
 
 <p align="center">
-  <img src="./image/jupyterEditor_1.png" alt="jupyterEditor_1">
+  <img src="image/jupyterEditor_1.png" alt="jupyterEditor_1">
 </p>
 
 - 처음 시작하면 이런 화면이 나온다. 먼저 github에서 clone해둔 repository의 경로와 맞춰주고 진행 하겠습니다. <br>예 `Documents -> GitHub -> Python`<br>예 `c:/user/Documents/GitHub/Python`
