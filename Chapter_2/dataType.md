@@ -1,6 +1,20 @@
 #### Python에서 사용되는 자료형(Data Types)
 
-1. **Number**
+
+1. **String**
+> - 문자열 (`str`): 문자들의 연속을 나타내는 자료형입니다. 예: `"Hello, World!"`, `'Python'`
+
+```
+name = input("이름을 입력하세요: ")
+greeting = "안녕하세요, 저는 " + name + " 입니다. "
+print(greeting)
+
+> Shift + Enter
+```
+---
+
+
+2. **Number**
 >- 정수형 (`int`): 정수를 나타내는 자료형입니다. 예: `10`, `-5`
 >- 실수형 (`float`): 실수를 나타내는 자료형입니다. 예: `3.14`, `-2.5`
 
@@ -9,11 +23,11 @@
 # 두 정수의 합 구하기
 
 # 두 개의 정수를 변수에 저장합니다.
-number1 = 5
-number2 = 3
+num1 = 5
+num2 = 3
 
 # 두 정수를 더하여 결과를 저장하는 변수를 만듭니다.
-sum_result = number1 + number2
+sum_result = num1 + num2
 
 # 결과를 출력합니다.
 print("두 정수의 합:", sum_result)
@@ -21,67 +35,66 @@ print("두 정수의 합:", sum_result)
 
 ```
 > 예제 2
+# 두 정수를 입력받고 합 구하기
+
+# 두 개의 정수를 입력받아 변수에 저장합니다.
 num1 = int(input("첫 번째 정수를 입력하세요: "))
 num2 = int(input("두 번째 정수를 입력하세요: "))
+
+# 두 정수를 더하여 결과를 저장하는 변수를 만듭니다.
 sum_result = num1 + num2
+
+# 결과를 출력합니다.
 print("두 정수의 합은:", sum_result)
 ```
-
-
-<pre>
-<code>import math
-
-radius = float(input("원의 반지름을 입력하세요: "))
-area = math.pi * radius ** 2
-print("원의 넓이는:", area)
-</code>
-</pre>
-
----
-
-2. **String**
-> - 문자열 (`str`): 문자들의 연속을 나타내는 자료형입니다. 예: `"Hello, World!"`, `'Python'`
-
-<pre>
-<code>name = input("이름을 입력하세요: ")
-age = input("나이를 입력하세요: ")
-greeting = "안녕하세요, 저는 " + name + "이고 " + age + "살입니다."
-print(greeting)
-</code>
-</pre>
-
 ---
 
 3. **Boolean**
 > - 불린 (`bool`): 참(True) 또는 거짓(False)을 나타내는 자료형입니다. 예: `True`, `False`
 
-<pre>
-<code>age = int(input("나이를 입력하세요: "))
-is_adult = age >= 18
-print("성인 여부:", is_adult)
-</code>
-</pre>
+```
+> 예제 1
 
+result = True
+print(result)
+
+result = False
+print(result)
+```
+
+```
+> 예제 2
+
+# 두 개의 정수를 입력받아 변수에 저장합니다.
+num1 = int(input("첫 번째 정수를 입력하세요: "))
+num2 = int(input("두 번째 정수를 입력하세요: "))
+
+# 서로의 값을 비교하여 True & False 를 반환 합니다.
+print(num1 < num2)
+```
 ---
 
 4. **List**
 > - 리스트 (`list`): 여러 개의 값을 순서대로 담는 자료형입니다. 값들은 대괄호(`[]`)로 둘러싸여 있고, 쉼표로 구분됩니다. 예: `[1, 2, 3]`, `['apple', 'banana', 'orange']`
 
-<pre>
-<code>numbers = []
-count = int(input("숫자의 개수를 입력하세요: "))
+```
+> 예제 1
 
-for i in range(count):
-    num = float(input("숫자를 입력하세요: "))
-    numbers.append(num)
+# List를 생성 합니다.
+# 리스트는 대괄호로 초기값을 셋팅 합니다.
+numbers = []
 
-sum_result = sum(numbers)
-avg_result = sum_result / count
+# 몃번의 입력을 받을지 정합니다.
+numbers.append(input("첫 번째 정수를 입력하세요: "))
+numbers.append(input("두 번째 정수를 입력하세요: "))
+numbers.append(input("세 번째 정수를 입력하세요: "))
 
-print("리스트의 합은:", sum_result)
-print("리스트의 평균은:", avg_result)
-</code>
-</pre>
+# 결과를 확인 합니다.  
+print(numbers)
+```
+<p align="center">
+  <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
+</p>
 
 ---
 

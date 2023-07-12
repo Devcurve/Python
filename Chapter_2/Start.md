@@ -10,7 +10,7 @@
 <p align="center">
   <img src="./Image/jupyterEditor_2.png" alt="jupyterEditor_2">
 </p>
-- 이렇게 생긴 창이 하나 나옵니다.<br>이제부터 본격적으로 python을 시작4 수 있는 모든 준비가 끝났다4 보시면 됩니다. <br><br
+- 이렇게 생긴 창이 하나 나옵니다.<br>이제부터 본격적으로 python을 시작4 수 있는 모든 준비가 끝났다4 보시면 됩니다. <br><br>
 
 ```
 str = "Hello World!"
@@ -18,7 +18,7 @@ print(str)
 ```
 - 이렇게 작성해 한 후에
 <p align="center">
-  <img src="./Image/jupyterEditor_4.png" alt="jupyterEditor_4">
+  <img src="./Image/jupyterEditor_99.png" alt="jupyterEditor_99">
 </p>를 입력 합니다.
 
 
@@ -29,3 +29,17 @@ print(str)
 </p>
 
 - 이렇게 Python을 활용한 문자열 출력을 해봤습니다.
+
+---
+
+## **Jupyter notebook 단축키**
+- **셀 실행후 아래 셀 추가**: `Shift + Enter`, `Alt + Enter`
+
+- **셀 아래에 셀 추가**: `B`
+- **셀 위에 셀 추가**: `A`
+
+- **셀 삭제 & 잘라내기**: `X`
+- **셀 복사**: `C`
+- **셀 붙여넣기**: `V`
+
+- **셀 합치기**: `Shift + M`
