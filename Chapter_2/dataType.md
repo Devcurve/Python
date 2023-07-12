@@ -92,8 +92,9 @@ numbers.append(input("세 번째 정수를 입력하세요: "))
 # 결과를 확인 합니다.  
 print(numbers)
 ```
+
 <p align="center">
-  <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
+  <img src="./Image/jupyterEditor_4.png" alt="jupyterEditor_4">
 </p>
 
 ---
@@ -101,16 +102,23 @@ print(numbers)
 5. **Tuple**
 > - 튜플 (`tuple`): 여러 개의 값을 순서대로 담는 자료형입니다. 값들은 소괄호(`()`)로 둘러싸여 있고, 쉼표로 구분됩니다. 튜플은 변경할 수 없는(immutable) 자료형입니다. 예: `(1, 2, 3)`, `('red', 'green', 'blue')`
 
-<pre>
-<code>
-fruits = ("사과", "오렌지")
-prices = (1500, 1000)
+```
+# 가족 구성원의 이름과 나이를 튜플로 저장합니다.
+father = ('아빠', 55)
+mother = ('엄마', 53)
+me = ('나', 25)
+# brother
+# sister
 
-for i in range(len(fruits)):
-    print(fruits[i], "의 가격은", prices[i], "원입니다.")
-</code>
-</pre>
+# 가족 구성원의 정보를 모아둔 튜플을 생성합니다.
+family = (father, mother, me)
 
+# 결과를 확인합니다.
+print(family)
+```
+<p align="center">
+  <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
+</p>
 ---
 
 6. **Set**

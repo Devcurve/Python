@@ -19,7 +19,7 @@ print(str)
 - 이렇게 작성해 한 후에
 <p align="center">
   <img src="./Image/jupyterEditor_99.png" alt="jupyterEditor_99">
-</p>를 입력 합니다.
+</p>를 입력 합니다.<br><br>
 
 
 - 그럼 다음과 같은 결과를 확인할 수 있습니다.
