@@ -47,3 +47,9 @@
 
 #### 메모리 오버헤드(Memory Overhead)란?
 > - 프로그램이 실행될 때 사용되는 메모리 공간에서 실제 데이터 이외에 추가적으로 사용되는 메모리 입니다.
+
+
+<!--목차 & 다음으로 페이지 이동-->
+[목차](https://github.com/Devcurve/Python/blob/main/README.md)<br>
+[이전 페이지](https://github.com/Devcurve/Python/blob/main/README.md)<br>
+[다음 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/dataType.md)

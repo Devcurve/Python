@@ -7,6 +7,7 @@
 - 처음 시작하면 이런 화면이 나온다. 먼저 github에서 clone해둔 repository의 경로와 맞춰주고 진행 하겠습니다. <br>예 `Documents -> GitHub -> Python`<br>예 `c:/user/Documents/GitHub/Python`
 
 ---
+
 <p align="center">
   <img src="./Image/jupyterEditor_2.png" alt="jupyterEditor_2">
 </p>
@@ -43,3 +44,7 @@ print(str)
 - **셀 붙여넣기**: `V`
 
 - **셀 합치기**: `Shift + M`
+
+[목차](https://github.com/Devcurve/Python/blob/main/README.md)<br>
+[이전 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/Advantages.md)
+[다음 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/Variable.md)

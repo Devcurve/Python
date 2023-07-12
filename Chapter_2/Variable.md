@@ -47,3 +47,8 @@
 Python에서 변수는 값들을 저장하고 사용하는데 도움이 되는 도구입니다.<br>
 변수를 잘 활용하면 프로그램을 더 유연하고 편리하게 만들 수 있습니다!<br>
 변수를 잘 활용한다면 프로그래밍의 유연성과 가독성을 높이는 데 도움을 줍니다.
+
+<!--목차 & 다음으로 페이지 이동-->
+[목차](https://github.com/Devcurve/Python/blob/main/README.md)<br>
+[이전 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/Start.md)<br>
+[다음 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/dataType.md)

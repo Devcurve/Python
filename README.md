@@ -121,7 +121,7 @@ ___목차___
 <div id="DataType">
 <!-- 특정 위치에 해당하는 내용 -->
 </div>
-
+- [Python의 장.단점](./Chapter_2/Advantages.md)
 - [Hello World !](./Chapter_2/Start.md)
 - [자료형](./Chapter_2/dataType.md)
 - [변수](./Chapter_2/Variable.md)
