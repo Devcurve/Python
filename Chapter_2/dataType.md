@@ -72,6 +72,7 @@ num2 = int(input("두 번째 정수를 입력하세요: "))
 # 서로의 값을 비교하여 True & False 를 반환 합니다.
 print(num1 < num2)
 ```
+
 ---
 
 4. **List**
@@ -92,7 +93,6 @@ numbers.append(input("세 번째 정수를 입력하세요: "))
 # 결과를 확인 합니다.  
 print(numbers)
 ```
-
 <p align="center">
   <img src="./Image/jupyterEditor_4.png" alt="jupyterEditor_4">
 </p>
@@ -119,13 +119,13 @@ print(family)
 <p align="center">
   <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
 </p>
+
 ---
 
 6. **Set**
 > - 집합 (`set`): 중복되지 않는 값을 담는 자료형입니다. 값들은 중괄호(`{}`)로 둘러싸여 있고, 쉼표로 구분됩니다. 예: `{1, 2, 3}`, `{'apple', 'banana', 'orange'}`
 
-<pre>
-<code>
+```
 numbers = set()
 
 while True:
@@ -141,16 +141,18 @@ if numbers:
     print("가장 큰 숫자:", max_num)
 else:
     print("입력된 숫자가 없습니다.")
-</code>
-</pre>
+```
+<p align="center">
+  <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
+</p>
 
 ---
 
 7. **Dictionary**
 > - 사전 (`dict`): 키(key)와 값(value)의 쌍을 담는 자료형입니다. 키와 값은 콜론(`:`)으로 연결되고, 각 쌍들은 쉼표로 구분됩니다. 예: `{'name': 'John', 'age': 30, 'city': 'Seoul'}`
 
-<pre>
-<code>dictionary = {
+```
+dictionary = {
     "apple": "사과",
     "banana": "바나나",
     "orange": "오렌지",
@@ -163,10 +165,12 @@ if word in dictionary:
     print("한국어 뜻은:", translation)
 else:
     print("사전에 없는 단어입니다.")
-</code>
-</pre>
+```
+<p align="center">
+  <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
+</p>
 
 
 <!-- ## [목차](./READMY.md) -->
-<a href="../READMY.md">처음으로</a> <br>
+[처음으로](https://github.com/Devcurve/Python/blob/main/README.md)<br>
 <a href="../READMY.md">다음</a>
