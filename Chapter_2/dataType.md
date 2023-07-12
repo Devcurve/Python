@@ -1,14 +1,23 @@
 #### Python에서 사용되는 자료형(Data Types)
 
-1. **Number**<br>- 정수형 (`int`): 정수를 나타내는 자료형입니다. 예: `10`, `-5`<br>- 실수형 (`float`): 실수를 나타내는 자료형입니다. 예: `3.14`, `-2.5`
+1. **Number**
+>- 정수형 (`int`): 정수를 나타내는 자료형입니다. 예: `10`, `-5`
+>- 실수형 (`float`): 실수를 나타내는 자료형입니다. 예: `3.14`, `-2.5`
 
-<pre>
-<code>num1 = int(input("첫 번째 정수를 입력하세요: "))
+
+```
+> 예제 1
+age = 10
+print("나이:", age)
+```
+
+```
+> 예제 2
+num1 = int(input("첫 번째 정수를 입력하세요: "))
 num2 = int(input("두 번째 정수를 입력하세요: "))
 sum_result = num1 + num2
 print("두 정수의 합은:", sum_result)
-</code>
-</pre>
+```
 
 
 <pre>
@@ -22,7 +31,8 @@ print("원의 넓이는:", area)
 
 ---
 
-2. **String**<br>- 문자열 (`str`): 문자들의 연속을 나타내는 자료형입니다. 예: `"Hello, World!"`, `'Python'`
+2. **String**
+> - 문자열 (`str`): 문자들의 연속을 나타내는 자료형입니다. 예: `"Hello, World!"`, `'Python'`
 
 <pre>
 <code>name = input("이름을 입력하세요: ")
@@ -34,7 +44,8 @@ print(greeting)
 
 ---
 
-3. **Boolean**<br>- 불린 (`bool`): 참(True) 또는 거짓(False)을 나타내는 자료형입니다. 예: `True`, `False`
+3. **Boolean**
+> - 불린 (`bool`): 참(True) 또는 거짓(False)을 나타내는 자료형입니다. 예: `True`, `False`
 
 <pre>
 <code>age = int(input("나이를 입력하세요: "))
@@ -45,7 +56,8 @@ print("성인 여부:", is_adult)
 
 ---
 
-4. **List**<br>- 리스트 (`list`): 여러 개의 값을 순서대로 담는 자료형입니다. 값들은 대괄호(`[]`)로 둘러싸여 있고, 쉼표로 구분됩니다. 예: `[1, 2, 3]`, `['apple', 'banana', 'orange']`
+4. **List**
+> - 리스트 (`list`): 여러 개의 값을 순서대로 담는 자료형입니다. 값들은 대괄호(`[]`)로 둘러싸여 있고, 쉼표로 구분됩니다. 예: `[1, 2, 3]`, `['apple', 'banana', 'orange']`
 
 <pre>
 <code>numbers = []
@@ -65,7 +77,8 @@ print("리스트의 평균은:", avg_result)
 
 ---
 
-5. **Tuple**<br>- 튜플 (`tuple`): 여러 개의 값을 순서대로 담는 자료형입니다. 값들은 소괄호(`()`)로 둘러싸여 있고, 쉼표로 구분됩니다. 튜플은 변경할 수 없는(immutable) 자료형입니다. 예: `(1, 2, 3)`, `('red', 'green', 'blue')`
+5. **Tuple**
+> - 튜플 (`tuple`): 여러 개의 값을 순서대로 담는 자료형입니다. 값들은 소괄호(`()`)로 둘러싸여 있고, 쉼표로 구분됩니다. 튜플은 변경할 수 없는(immutable) 자료형입니다. 예: `(1, 2, 3)`, `('red', 'green', 'blue')`
 
 <pre>
 <code>
@@ -79,7 +92,8 @@ for i in range(len(fruits)):
 
 ---
 
-6. **Set**<br>- 집합 (`set`): 중복되지 않는 값을 담는 자료형입니다. 값들은 중괄호(`{}`)로 둘러싸여 있고, 쉼표로 구분됩니다. 예: `{1, 2, 3}`, `{'apple', 'banana', 'orange'}`
+6. **Set**
+> - 집합 (`set`): 중복되지 않는 값을 담는 자료형입니다. 값들은 중괄호(`{}`)로 둘러싸여 있고, 쉼표로 구분됩니다. 예: `{1, 2, 3}`, `{'apple', 'banana', 'orange'}`
 
 <pre>
 <code>
@@ -103,7 +117,8 @@ else:
 
 ---
 
-7. **Dictionary**<br>- 사전 (`dict`): 키(key)와 값(value)의 쌍을 담는 자료형입니다. 키와 값은 콜론(`:`)으로 연결되고, 각 쌍들은 쉼표로 구분됩니다. 예: `{'name': 'John', 'age': 30, 'city': 'Seoul'}`
+7. **Dictionary**
+> - 사전 (`dict`): 키(key)와 값(value)의 쌍을 담는 자료형입니다. 키와 값은 콜론(`:`)으로 연결되고, 각 쌍들은 쉼표로 구분됩니다. 예: `{'name': 'John', 'age': 30, 'city': 'Seoul'}`
 
 <pre>
 <code>dictionary = {
@@ -124,4 +139,5 @@ else:
 
 
 <!-- ## [목차](./READMY.md) -->
-<a href="../READMY.md">목차</a>
+<a href="../READMY.md">처음으로</a> <br>
+<a href="../READMY.md">다음</a>
