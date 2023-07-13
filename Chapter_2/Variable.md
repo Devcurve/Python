@@ -30,9 +30,10 @@
 
 ##### 5. 변수의 자료형 추론
    - Python은 동적 타이핑(Dynamic Typing) 언어로, 변수의 자료형을 명시적으로 선언할 필요가 없습니다. Python은 변수에 할당되는 값의 자료형을 자동으로 추론합니다.
+
    <!-- 이미지 가운데 정렬 -->
    <p align="center">
-     <img src="./dataType.png" alt="dataType">
+     <img src="./Image/dataType.png" alt="dataType">
    </p>
    - 예: `x = 10`이면 `x`는 자동으로 int 자료형이 됩니다.
    - 예: `str = "hello world !"`이면 `str`은 자동으로 `string` 자료형이 됩니다.

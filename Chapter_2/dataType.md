@@ -126,24 +126,25 @@ print(family)
 > - 집합 (`set`): 중복되지 않는 값을 담는 자료형입니다. 값들은 중괄호(`{}`)로 둘러싸여 있고, 쉼표로 구분됩니다. 예: `{1, 2, 3}`, `{'apple', 'banana', 'orange'}`
 
 ```
-numbers = set()
+numbers = set([1, 2, 3, 4, 5])
 
-while True:
-    num = int(input("숫자를 입력하세요 (0 입력 시 종료): "))
-    if num == 0:
-        break
-    numbers.add(num)
+# 집합의 요소를 확인
+print(numbers)
+# {1, 2, 3, 4, 5}
 
-if numbers:
-    min_num = min(numbers)
-    max_num = max(numbers)
-    print("가장 작은 숫자:", min_num)
-    print("가장 큰 숫자:", max_num)
-else:
-    print("입력된 숫자가 없습니다.")
+# 집합에서 요소를 제거
+numbers.remove(2)
+
+# 집합의 크기를 확인
+print(len(numbers))
+# 4
+
+# 집합에 요소를 추가
+numbers.add(6)
+# {1, 3, 4, 5, 6}
 ```
 <p align="center">
-  <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
+  <img src="./Image/jupyterEditor_6.png" alt="jupyterEditor_6">
 </p>
 
 ---
@@ -152,22 +153,75 @@ else:
 > - 사전 (`dict`): 키(key)와 값(value)의 쌍을 담는 자료형입니다. 키와 값은 콜론(`:`)으로 연결되고, 각 쌍들은 쉼표로 구분됩니다. 예: `{'name': 'John', 'age': 30, 'city': 'Seoul'}`
 
 ```
-dictionary = {
-    "apple": "사과",
-    "banana": "바나나",
-    "orange": "오렌지",
-    "grape": "포도"
+dict = {
+    "name": "홍길동",
+    "phone": "010-1234-5678",
+    "age": "25",
+    "region": "Busan"
 }
 
-word = input("영어 단어를 입력하세요: ")
-if word in dictionary:
-    translation = dictionary[word]
-    print("한국어 뜻은:", translation)
-else:
-    print("사전에 없는 단어입니다.")
+#키에 해당하는 값을 반환
+name = dict.__getitem__("name")
+print(name)
+# 홍길동
+
+# "job"키와 "student"값을 dictionary에 추가
+dict.__setitem__("job", "student")
+
+# "region"키와 값을 dictionary에서 제거
+dict.__delitem__("region")
+
+
+# "region"키가 dictionary에 있는지 확인
+check = dict.__contains__("region")
+print(check)
+# False
+
+
+#dictionary의 크기를 반환
+print(dict.__len__())
+# 4
+
+
+#dictionary의 복사본을 생성
+temp = dict.copy()
+print(temp)
+# {'name': '홍길동', 'phone': '010-1234-5678', 'age': '25', 'job': 'student'}
+
+
+#키에 해당하는 값을 반환하고, 키가 없으면 기본값을 반환합니다.
+age = dict.get("age")
+print(age)
+# 25
+
+#키와 값의 튜플을 반환
+items = dict.items()
+print(items)
+# dict_items([('name', '홍길동'), ('phone', '010-1234-5678'), ('age', '25'), ('job', 'student')])
+
+
+#키의 리스트를 반환
+print(dict.keys())
+# dict_keys(['name', 'phone', 'age', 'job'])
+
+
+#값의 리스트를 반환
+print(dict.values())
+# dict_values(['홍길동', '010-1234-5678', '25', 'student'])
+
+
+#dictionary를 비운다.
+dict.clear()
+# 모든 데이터가 삭제 됨
+
+# 삭제 되었는지 확인.
+print(dict)
 ```
+
+##### - `dict = {}` 이런 형태로 초기화도 가능.
+
 <p align="center">
-  <img src="./Image/jupyterEditor_5.png" alt="jupyterEditor_5">
+  <img src="./Image/jupyterEditor_7.png" alt="jupyterEditor_7">
 </p>
 
 
