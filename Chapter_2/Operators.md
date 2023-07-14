@@ -224,6 +224,142 @@ print(not False)
 </p><br><br>
 
 ---
+### ___비트연산자___
+
+- `&`: 비트 단위로 AND 연산을 수행.
+
+```
+num1 = 10  # 1010
+num2 = 7   # 0111
+
+result = num1 & num2  # 0010
+
+print(result)  
+
+> 2
+```
+<br><br>
+
+- `|`: 비트 단위로 OR 연산을 수행.
+
+```
+num1 = 10  # 1010
+num2 = 7   # 0111
+
+result = num1 | num2  # 1111
+
+print(result)
+
+> 15
+```
+<br><br>
+
+- `^`: 비트 단위로 XOR 연산을 수행.
+
+```
+num1 = 10  # 1010
+num2 = 7   # 0111
+
+result = num1 ^ num2  # 1101
+
+print(result)  
+
+> 13
+```
+<br><br>
+
+- `~`: 비트 단위로 NOT 연산을 수행.
+
+```
+num = 10   # 1010
+
+result = ~num  # -11
+
+pint(result)  
+
+> -11
+```
+<br><br>
+
+- `<<`: 비트를 왼쪽으로 이동시킴.
+
+```
+num = 5    # 0101
+
+result = num << 2  # 010100
+
+print(result)  
+
+> 20
+```
+<br><br>
+
+- `>>`: 비트를 오른쪽으로 이동시킴.
+
+```
+num = 20   # 010100
+
+result = num >> 2  # 0101
+
+print(result)
+
+> 5
+```
+
+---
+
+### ___추가___
+
+is: 두 개의 객체가 동일한 객체인지 확인.
+
+```
+x = 10
+y = 10
+
+if x is y:
+    print("x와 y는 동일한 객체입니다.")
+else:
+    print("x와 y는 다른 객체입니다.")
+```
+<br><br>
+
+is not: 두 개의 객체가 다른 객체인지 확인.
+
+```
+x = 10
+y = 20
+
+if x is not y:
+    print("x와 y는 다른 객체입니다.")
+else:
+    print("x와 y는 동일한 객체입니다.")
+```
+<br><br>
+
+
+in: 특정 요소가 시퀀스(리스트, 튜플, 문자열 등)에 속하는지 확인.
+
+```
+fruits = ["사과", "바나나", "딸기", "수박"]
+
+if "딸기" in fruits:
+    print("딸기는 과일 목록에 포함되어 있습니다.")
+else:
+    print("딸기는 과일 목록에 포함되어 있지 않습니다.")
+```
+<br><br>
+
+
+not in: 특정 요소가 시퀀스에 속하지 않는지 확인.
+
+```
+fruits = ["사과", "바나나", "딸기", "수박"]
+
+if "오렌지" not in fruits:
+    print("오렌지는 과일 목록에 포함되어 있지 않습니다.")
+else:
+    print("오렌지는 과일 목록에 포함되어 있습니다.")
+```
 ---
 <!--목차 & 다음으로 페이지 이동-->
 [목차](https://github.com/Devcurve/Python/blob/main/README.md)<br>
