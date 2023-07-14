@@ -93,9 +93,7 @@ for i in range(1, 6):
 <br><br>
 
 ---
-
 <!--목차 & 다음으로 페이지 이동-->
-
 [목차](https://github.com/Devcurve/Python/blob/main/README.md)<br>
 [이전 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/space.md)<br>
-<!--[다음 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/.md)-->
+[다음 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/Operators.md)

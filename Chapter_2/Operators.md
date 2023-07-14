@@ -101,7 +101,7 @@ print(n)
 > 1
 ```
 
-- `**=`: 우측의 값을 좌측 변수에 거듭제곱하고, 그 결과를 좌측 변수에 할당합니다.
+- `**=`: 우측의 값을 좌측 변수에 거듭제곱의 값을 할당.
 ```
 n = 10
 n **= 3
@@ -111,7 +111,7 @@ print(n)
 
 ---
 ### ___비교 연산자___
-- ==: 좌우 항이 동일한지 비교.
+- `==`: 좌우 항이 동일한지 비교.
 ```
 print(10 == 10)
 print(10 == 5)
@@ -123,7 +123,7 @@ print(10 == 5)
 </p><br><br>
 
 
-- !=: 좌우 항이 다른지 비교합니다.
+- `!=`: 좌우 항이 다른지 비교.
 ```
 print(10 != 10)
 print(10 != 5)
@@ -135,7 +135,7 @@ print(10 != 5)
 </p><br><br>
 
 
-- >: 좌항이 우항보다 큰지 비교합니다.
+- `>`: 좌항이 우항보다 큰지 비교.
 ```
 print(5 > 10)
 print(5 > 0)
@@ -147,7 +147,7 @@ print(5 > 0)
 </p><br><br>
 
 
-- <: 좌항이 우항보다 작은지 비교합니다.
+- `<`: 좌항이 우항보다 작은지 비교.
 ```
 print(5 < 10)
 print(5 < 0)
@@ -159,10 +159,10 @@ print(5 < 0)
 </p><br><br>
 
 
-- >=: 좌항이 우항보다 크거나 같은지 비교합니다.
+- `>=`: 좌항이 우항보다 크거나 같은지 비교.
 ```
-print(10 >= 10)
-print(10 >= 5)
+print(5 >= 10)
+print(5 >= 0)
 > False
 > True
 ```
@@ -171,10 +171,10 @@ print(10 >= 5)
 </p><br><br>
 
 
-- <=: 좌항이 우항보다 작거나 같은지 비교합니다.
+- `<=`: 좌항이 우항보다 작거나 같은지 비교.
 ```
-print(10 <= 10)
-print(10 <= 5)
+print(5 <= 10)
+print(5 <= 0)
 > True
 > False
 ```
@@ -183,3 +183,49 @@ print(10 <= 5)
 </p><br><br>
 
 ---
+### ___논리 연산자___
+
+- `and`: 좌우 조건식이 모두 참인지 확인.
+```
+print(True and True)
+print(False and True)
+print(True and False)
+print(False and False)
+```
+
+
+<p align="center">
+  <img src="./Image/Operator_7.png" alt="Operator_7">
+</p><br><br>
+
+
+
+- `or`: 좌우 조건식 중 하나 이상이 참인지 확인.
+```
+print(True or True)
+print(False or True)
+print(True or False)
+print(False or False)
+```
+
+<p align="center">
+  <img src="./Image/Operator_8.png" alt="Operator_8">
+</p><br><br>
+
+
+- `not`: 조건식의 결과를 반대로 반환.
+```
+print(not True)
+print(not False)
+```
+
+<p align="center">
+  <img src="./Image/Operator_9.png" alt="Operator_9">
+</p><br><br>
+
+---
+---
+<!--목차 & 다음으로 페이지 이동-->
+[목차](https://github.com/Devcurve/Python/blob/main/README.md)<br>
+[이전 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/loopFor.md)<br>
+[다음 페이지](https://github.com/Devcurve/Python/blob/main/Chapter_2/loopWhile.md)
