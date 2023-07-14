@@ -102,8 +102,8 @@ jupyter notebook
 `````
 
 - 두 가지 방법 중 아무거나 선택해서 설치.
-
 -->
+
 ---
 
 ___교재___
@@ -121,6 +121,9 @@ ___목차___
 <div id="DataType">
 <!-- 특정 위치에 해당하는 내용 -->
 </div>
+
+<!-- - [데이터타입의 종류](./Chapter_2/ .md)
+- [변수](./Chapter_2/ .md) -->
 
 - [Python의 장.단점](./Chapter_2/Advantages.md)
 - [Hello World !](./Chapter_2/Start.md)
