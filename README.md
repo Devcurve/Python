@@ -127,8 +127,13 @@ ___목차___
 
 - [Python의 장.단점](./Chapter_2/Advantages.md)
 - [Hello World !](./Chapter_2/Start.md)
-- [자료형](./Chapter_2/dataType.md)
 - [변수](./Chapter_2/Variable.md)
+- [자료형](./Chapter_2/dataType.md)
+- [조건문](./Chapter_2/if_else.md)
+- [문법 기본(들여쓰기)](./Chapter_2/space.md)
+- [반복문(for)](./Chapter_2/loopFor.md)
+- [연산자](./Chapter_2/Operators.md)
+- [반복문(while)](./Chapter_2/loopWhile.md)
 - 2-3 함수의 개념
 - 2-4 패키지, 모듈, 라이브러리
 - 2-5 흐름의 제어
