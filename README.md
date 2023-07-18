@@ -108,6 +108,9 @@ jupyter notebook
 
 ___교재___
 
+###### - 현재 자료는 아래 교재를 권장하고 있습니다.
+<br>
+
 <!-- 이미지 가운데 정렬 -->
 <p align="center">
   <img src="./image/book.png" alt="install_07">
