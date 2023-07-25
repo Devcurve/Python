@@ -137,12 +137,9 @@ ___목차___
 - [반복문(for)](./Chapter_2/loopFor.md)
 - [연산자](./Chapter_2/Operators.md)
 - [반복문(while)](./Chapter_2/loopWhile.md)
-- 2-3 함수의 개념
-- 2-4 패키지, 모듈, 라이브러리
-- 2-5 흐름의 제어
-- 2-6 자료형
-- 2-7 함수의 정의
-- 2-8 사용자 정의 자료형
+- [함수](./Chapter_2/Function.md)
+- [클래스](./Chapter_2/class.md)
+
 - 2-9 키보드 입력
 - 2-10 파일 입출력
 
