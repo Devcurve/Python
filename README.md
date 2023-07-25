@@ -139,9 +139,7 @@ ___목차___
 - [반복문(while)](./Chapter_2/loopWhile.md)
 - [함수](./Chapter_2/Function.md)
 - [클래스](./Chapter_2/class.md)
-
-- 2-9 키보드 입력
-- 2-10 파일 입출력
+- [파일 입출력](./Chapter_2/class.md)
 
 ## Chapter 3. 문서 다루기
 - 3-1 엑셀 다루기 (OpenPyXL)
