@@ -128,18 +128,18 @@ ___목차___
 <!-- - [데이터타입의 종류](./Chapter_2/ .md)
 - [변수](./Chapter_2/ .md) -->
 
-- [Python의 장.단점](./Chapter_2/Advantages.md)
-- [Hello World !](./Chapter_2/Start.md)
-- [변수](./Chapter_2/Variable.md)
-- [자료형](./Chapter_2/dataType.md)
-- [조건문](./Chapter_2/if_else.md)
-- [문법 기본(들여쓰기)](./Chapter_2/space.md)
-- [반복문(for)](./Chapter_2/loopFor.md)
-- [연산자](./Chapter_2/Operators.md)
-- [반복문(while)](./Chapter_2/loopWhile.md)
-- [함수](./Chapter_2/Function.md)
-- [클래스](./Chapter_2/class.md)
-- [파일 입출력](./Chapter_2/class.md)
+- [Python의 장.단점](./Learning/Advantages.md)
+- [Hello World !](./Learning/Start.md)
+- [변수](./Learning/Variable.md)
+- [자료형](./Learning/dataType.md)
+- [조건문](./Learning/if_else.md)
+- [문법 기본(들여쓰기)](./Learning/space.md)
+- [반복문(for)](./Learning/loopFor.md)
+- [연산자](./Learning/Operators.md)
+- [반복문(while)](./Learning/loopWhile.md)
+- [함수](./Learning/Function.md)
+- [클래스](./Learning/class.md)
+- [파일 입출력](./Learning/class.md)
 
 ___실습예제 (코랩을 활용한 로또프로그램 작성)___
 ###### `구글 코랩으로 작성된 실습 예제는 이곳에서 제공되지 않습니다.`
